@@ -1,0 +1,71 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Output directories
+dist/
+build/
+out/
+tmp/
+
+# TypeScript
+*.tsbuildinfo
+*.d.ts.map
+*.js.map
+*.d.ts
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+.log/
+
+# Editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vscode/*
+.vscode/**/*
+.vscode-test/
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Git conflicts
+*.orig
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Jest & Testing
+coverage/
+jest-cache/
+jest-test-results.json
+
+# TypeORM & Prisma
+*.sqlite
+*.sqlite-journal
+prisma/migrations/
+prisma/dev.db
+
+# PM2 & Process Managers
+pm2.log
+pids/
+*.pid
+*.seed
+*.dump
